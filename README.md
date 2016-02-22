@@ -1,6 +1,6 @@
 # The Monty Hall Problem
 
-Pretpostavka je da se nalaize u kvizu kojeg vodi Monty Hall. Monty vam pokazuje troja vrata. Iza jednih vrata se nalazi automobil, a iza ostalih koze.
+Pretpostavka je da se nalazite u kvizu kojeg vodi Monty Hall. Monty vam pokazuje troja vrata. Iza jednih vrata se nalazi automobil, a iza ostalih koze.
 Pravila igre su sljedeća:
 - Nakon što odaberete jedna vrata, ona ostaju zatvorena. 
 - Monty koji zna što se nalazi iza kojih vrata, otvara jedna od preostalih (otvara vrata iza kojih je koza).
