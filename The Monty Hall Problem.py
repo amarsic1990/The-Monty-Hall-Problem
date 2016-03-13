@@ -3,7 +3,7 @@ import numpy as np
 
 def simNagrVrata(brSim):
     """
-    simulacija vrata iza kojih se nalazi nagrada. 
+    simulacija vrata iza kojih se nalazi nagrada.
     Kao input je potrebno unijeti broj simulacija
     """
     return np.random.randint(0,3, brSim)
@@ -37,6 +37,6 @@ print "igru igramo", brSim, "puta"; print; print
 tocVrata = simNagrVrata(brSim)
 pogoci = simPog(brSim)
 krivaVrata = pogVrata(tocVrata, pogoci)
-print "kada ne mjenjamo vrata dobivamo u", postPobj(pogoci, tocVrata), "% slucajeva"; print; print
+print "kada ne mijenjamo vrata dobivamo u", postPobj(pogoci, tocVrata), "% slucajeva"; print; print
 promVrata = promVr(pogoci, krivaVrata)
-print "kada  mjenjamo vrata dobivamo u", postPobj(promVrata, tocVrata), "% slucajeva"
+print "kada  mijenjamo vrata dobivamo u", postPobj(promVrata, tocVrata), "% slucajeva"
